@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --dark-bg: #070707;
+    --white: #FFFFFF;
+    --primary: #F7A325;
+}
+
+* {
+    box-sizing: border-box;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--dark-bg) !important;
+    overflow-x: hidden;
+}
+
+#bgvid {
+	z-index: -1 !important;
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	z-index: -9999;
+	filter: brightness(55%);
+}
+
+footer {
+    height: 50vh;
+    background: url('assets/earth_footer.jpeg');
+    background-position: center;
+    background-size: cover;
+}
