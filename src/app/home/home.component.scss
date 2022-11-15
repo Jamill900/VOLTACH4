@@ -1,5 +1,4 @@
-main {
-    height: 100vh;
+.section__item:nth-of-type(1) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -15,7 +14,7 @@ main {
 
     h1 {
         font-size: 5em;
-        max-width: 700px;
+        max-width: 900px;
         margin: auto;
         font-weight: 300;
         text-align: center;
@@ -44,7 +43,7 @@ main {
 
 section {
 
-    height: 100vh;
+    
 
     h1 {
         font-family: 'Chakra Petch';
@@ -54,7 +53,7 @@ section {
 
 
 footer {
-    
+
     h1 {
         font-family: 'Chakra Petch';
         padding: 20px 0;
@@ -83,9 +82,14 @@ img-comparison-slider {
 }
 
 #technology {
+    text-align: left;
     p {
         font-weight: 400;
         font-size: 18px;
+    }
+
+    img {
+        max-width: 1000px;
     }
 }
 
@@ -98,5 +102,13 @@ img-comparison-slider {
     p {
         font-weight: 400;
         font-size: 14px;
+        max-width: 300px;
+        margin: auto;
+        padding-bottom: 40px;
     }
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
 }

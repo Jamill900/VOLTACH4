@@ -19,6 +19,17 @@ body {
     overflow-x: hidden;
 }
 
+.section {
+  height: 100vh;
+  overflow-y: auto;
+  scroll-snap-type: y;
+}
+
+.section__item {
+  min-height: 100vh;
+  scroll-snap-align: start;
+}
+
 #bgvid {
 	z-index: -1 !important;
 	object-fit: cover;
@@ -29,13 +40,6 @@ body {
 	left: 0;
 	z-index: -9999;
 	filter: brightness(55%);
-}
-
-footer {
-    height: 50vh;
-    background: url('assets/earth_footer.jpeg');
-    background-position: center;
-    background-size: cover;
 }
 /* Contact Us */
 
