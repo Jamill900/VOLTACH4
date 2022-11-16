@@ -36,6 +36,19 @@
     }
 }
 
+@media (max-width: 700px) {
+    .section__item:nth-of-type(1) {
+        h1 {
+            font-size: 3em;
+        }
+    }
+
+    img-comparison-slider {
+        margin-bottom: 50px;
+    }
+
+}
+
 .row {
     margin-right: 0;
     margin-left: 0;
@@ -109,6 +122,30 @@ iframe {
     height: 500px;
 }
 
+#logos {
+    img:nth-of-type(1) {
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+    img:nth-of-type(2) {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.copyright {
+    padding: 20px 0;
+    h5 {
+        font-size: 12px;
+        color: #818181;
+    }
+}
+
+.text-right {
+    h5 {
+        float: right;
+    }
+}
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: rgb(0, 255, 145);
   font-size: 0.875em;
