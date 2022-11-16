@@ -13,7 +13,7 @@
     }
 
     h1 {
-        font-size: 5em;
+        font-size: 4em;
         max-width: 900px;
         margin: auto;
         font-weight: 300;
@@ -31,7 +31,7 @@
         letter-spacing: 3px;
         margin: auto;
         text-align: center;
-        font-size: 25px;
+        font-size: 18px;
         font-weight: 200;
     }
 }
@@ -41,28 +41,15 @@
     margin-left: 0;
 }
 
-section {
 
-    
-
-    h1 {
-        font-family: 'Chakra Petch';
-        font-weight: 300;
-    }
-}
-
-
-footer {
-
-    h1 {
-        font-family: 'Chakra Petch';
-        padding: 20px 0;
-    }
+h1 {
+    font-family: 'Chakra Petch';
+    font-weight: 300;
 }
 
 .about {
     h2 {
-        font-size: 60px;
+        font-size: 50px;
         font-weight: 300;
 
         span {
@@ -71,9 +58,9 @@ footer {
     }
 
     p {
-        max-width: 350px;
+        max-width: 300px;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
@@ -85,7 +72,11 @@ img-comparison-slider {
     text-align: left;
     p {
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
+
+        span {
+            color: rgb(0, 255, 145);
+        }
     }
 
     img {
@@ -97,6 +88,7 @@ img-comparison-slider {
     h3 {
         font-size: 20px;
         padding: 15px 0 5px 0;
+        color: rgb(0, 255, 145);
     }
 
     p {
@@ -108,7 +100,165 @@ img-comparison-slider {
     }
 }
 
+.green {
+    color: rgb(0, 255, 145);
+}
+
 iframe {
     width: 100%;
     height: 500px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: rgb(0, 255, 145);
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #bbb5af;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: rgb(0, 255, 145);
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #bbb5af;
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgb(0, 255, 145);
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #bbb5af;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: rgb(0, 255, 145);
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+#form {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-size: 0.875em;
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #726659;
+  
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: transparent;
+  color: #e2dedb;
+}
+
+textarea {
+  width: 100%;
+  max-width: 500px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #726659;
+  font-size: 0.875em;
+  
+  border: solid 1px #b3aca7;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: transparent;
+  color: #e2dedb;
+}
+
+#submit {
+  width: 100%;
+  max-width: 500px;
+
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-size: 0.875em;
+  color: rgb(0, 255, 145);
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
 }

@@ -22,12 +22,10 @@ body {
 .section {
   height: 100vh;
   overflow-y: auto;
-  scroll-snap-type: y;
 }
 
 .section__item {
   min-height: 100vh;
-  scroll-snap-align: start;
 }
 
 #bgvid {
@@ -39,7 +37,7 @@ body {
 	top: 0;
 	left: 0;
 	z-index: -9999;
-	filter: brightness(55%);
+	filter: brightness(45%);
 }
 /* Contact Us */
 
